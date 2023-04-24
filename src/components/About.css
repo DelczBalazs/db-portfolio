@@ -1,0 +1,133 @@
+
+.aboutContainer {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    place-items: center;
+    background-color: #2b2d32;    
+}
+
+
+.aboutContent{
+
+    display: flex;
+    /*position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.aboutDiv{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3.5rem;   
+    flex-direction: column;
+}
+
+
+.aboutLinks{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: block;
+    align-items: center;
+    margin-top: 3rem;     
+    gap: 1rem;
+}
+
+.aboutLinks a{
+    
+    font-size: 1.5rem;
+}
+
+.aboutLinks button{
+    
+    border: 4px inset #FFFFFF;
+    border-radius: 40px;
+    width: 25%;
+    height: 3rem;
+    width: 10rem;   
+}
+
+.invertedButton{
+
+    color: white;
+    background-color: #1e1f21;
+}
+
+.aboutText{    
+
+    padding: 0 10rem 0 10rem;
+    font-size: 4rem;
+}
+
+#nameText{
+    color: #5ed4f3;
+}
+
+@media(max-width: 1190px){
+
+    .aboutText{
+        font-size: 2rem;
+    }
+}
+
+
+@media(max-width: 767px){
+
+    .aboutText{
+        padding: 0.5rem;
+    }
+
+    .aboutLinks{
+        margin-top: 1rem;
+    }    
+
+    #littleText{
+        font-size: 1.5rem;
+    }
+  
+    #dataText{
+        font-size: 1.5rem;
+    }
+
+    .aboutContent{
+        gap: 1rem;
+    }
+}
+
+
+@media(max-width: 350px){
+
+    .aboutContainer{
+
+        overflow: hidden;
+        
+    }
+
+    #littleText{
+
+        font-size: 1.2rem;
+    }
+
+    .aboutLinks button{
+    
+        border: 4px inset #FFFFFF;
+        border-radius: 40px;
+        width: 25%;
+        height: 3rem;
+        width: 8rem;   
+    }
+}
+
+
