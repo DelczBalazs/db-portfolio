@@ -7,14 +7,13 @@
 .portfolio h2{
     margin-bottom: 2rem;
 }
-
 .portfolioContainer{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
     margin-right: 2rem;
     margin-left: 2rem;
 }
@@ -94,14 +93,46 @@
 .portfolioLayer a{
 
     font-size: 1.6rem;
+    gap: 2rem;
     color: #1e1f21;
 }
+
 
 a:hover{
     color: #5ed4f3;
     
 }
 
+.projectwavesContainer{
+
+    position: relative;
+}
+
+.projectWaves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.projectWaves svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 39px;
+}
+
+.projectWaves .shape-fill {
+    fill: #2B2D32;
+}
+
+.links a{
+
+    margin: 1rem 1rem 0 1rem;
+}
 
 @media(max-width: 1550px){
 
@@ -120,7 +151,14 @@ a:hover{
     }
 }
 
-@media (max-width: 450px){
+@media(max-width: 470px){
+    
+    .projectWaves svg{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 510px){
 
     section.portfolio h4 {
 
@@ -145,11 +183,16 @@ a:hover{
     }
 }
 
-@media (max-width: 319px){
+@media (max-width: 370px){
+
+    .portfolioContainer{
+
+        margin-bottom: 5rem;
+    }
 
     section.portfolio h4 {
 
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
 
     section.portfolio p{
@@ -167,6 +210,7 @@ a:hover{
 
         width: 1.5rem;
         height: 1.5rem;
+        margin: 0 0.5rem 0 0.5rem;
     }
 }
 

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footerContainer'>
         <div className="myInfo">
-            <h2>| Developed by: Délczeg Balázs &copy;  2023 | </h2>
+            <h2>| <i>Developed by</i>: Délczeg Balázs <i>&copy;  2023</i> | </h2>
         </div>
 
         <div className="myLinks">
