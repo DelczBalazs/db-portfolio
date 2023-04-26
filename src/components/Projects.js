@@ -21,11 +21,11 @@ const Projects = () => {
           <div className="portfolioBox">
             <img src={kep1} alt="" />
             <div className="portfolioLayer">
-              <h4>Teszt egyes</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, soluta?</p>
+              <h4>Theme toggle</h4>
+              <p>A simple theme switch that was made with HTML, CSS, Javascript. </p>
               <div className="links">
-                <a href="/#"> <FaExternalLinkAlt/> </a>
-                <a href="/#"> <FaGithub/> </a>
+                <a href="https://lightdarkswitch.netlify.app/" target="_blank" rel="noreferrer"> <FaExternalLinkAlt/> </a>
+                <a href="https://github.com/DelczBalazs/lightdarktheme" target="_blank" rel="noreferrer"> <FaGithub/> </a>
               </div>
             </div>  
           </div>
@@ -33,11 +33,11 @@ const Projects = () => {
           <div className="portfolioBox">
             <img src={kep2} alt="" />
             <div className="portfolioLayer">
-              <h4>Teszt egyes</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, soluta?</p>
+              <h4>Galaxy site</h4>
+              <p>Made with React, a more complex site some nice features.</p>
               <div className="links">
-                <a href="/#"> <FaExternalLinkAlt/> </a>
-                <a href="/#"> <FaGithub/> </a>
+                <a href="https://galaxysitereact.netlify.app/" target="_blank" rel="noreferrer"> <FaExternalLinkAlt/> </a>
+                <a href="https://github.com/DelczBalazs/galaxysite" target="_blank" rel="noreferrer"> <FaGithub/> </a>
               </div>
             </div>  
           </div>
@@ -45,8 +45,8 @@ const Projects = () => {
           <div className="portfolioBox">
             <img src={kep3} alt="" />
             <div className="portfolioLayer">
-              <h4>Teszt egyes</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, soluta?</p>
+              <h4>Crypto search</h4>
+              <p>A simple Crypto currency browser app it gets data from an API, made with React.</p>
               <div className="links">
                 <a href="/#"> <FaExternalLinkAlt/> </a>
                 <a href="/#"> <FaGithub/> </a>
@@ -57,7 +57,7 @@ const Projects = () => {
           <div className="portfolioBox">
             <img src={kep4} alt="" />
             <div className="portfolioLayer">
-              <h4>Teszt egyes</h4>
+              <h4>Under upload</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, soluta?</p>
               <div className="links">
                 <a href="/#"> <FaExternalLinkAlt/> </a>
@@ -69,7 +69,7 @@ const Projects = () => {
           <div className="portfolioBox">
             <img src={kep5} alt="" />
             <div className="portfolioLayer">
-              <h4>Teszt egyes</h4>
+              <h4>Under upload</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, soluta?</p>
               <div className="links">
                 <a href="/#"> <FaExternalLinkAlt/> </a>
@@ -81,7 +81,7 @@ const Projects = () => {
           <div className="portfolioBox">
             <img src={kep6} alt="" />
             <div className="portfolioLayer">
-              <h4>Teszt egyes</h4>
+              <h4>Under upload</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, soluta?</p>
               <div className="links">
                 <a href="/#"> <FaExternalLinkAlt/> </a>

@@ -10,10 +10,10 @@ const About = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['<i>Frontend</i> Developer.', 'Problem <i>solver</i>.','<i>Music</i> lover.'  ],
+      strings: ['<i>frontend</i> developer.', '<i>technician.</i>', 'problem <i>solver</i>.','<i>music</i> producer.'  ],
       typeSpeed: 100,
       backSpeed: 45,
-      backDelay: 6000,
+      backDelay: 5000,
       loop: true
     });
 
@@ -26,21 +26,21 @@ const About = () => {
   return (   
 
     <>
-        <div className='aboutContainer'>                 
+        <div className="aboutContainer">                 
 
             <div className="aboutContent">
 
-              <div className='aboutDiv'>
-                  <p className='aboutText' id='littleText'>Greetings, here you can find my most recent projects, <br />  my name is </p>
-                  <h3 className='aboutText' id='nameText'>Balázs</h3>
-                  <p className='aboutText' id='dataText'>I'm a <span id='typedText' ref={el} /> </p>
+              <div className="aboutDiv">
+                  <p className="aboutText" id="littleText">Greetings, here you can find my most recent projects, <br />  my name is </p>
+                  <h3 className="aboutText" id="nameText">Balázs</h3>
+                  <p className="aboutText" id="dataText">I'm a <span id='typedText' ref={el} /> </p>
 
               </div>
               
               <br></br>
 
               <div className='aboutLinks'>
-                <button>Download CV_ <FaCloudDownloadAlt /></button>
+                <a href="../images/DBresume.pdf" download id="downloadButton">Download CV_ <FaCloudDownloadAlt /></a>
                 <button>Contact me_<FaEnvelopeOpenText /></button>
               </div>
 

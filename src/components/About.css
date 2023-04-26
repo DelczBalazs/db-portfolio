@@ -38,13 +38,33 @@
     margin-top: 3rem;     
     gap: 1rem;
 }
-
+/*
 .aboutLinks a{
     
     font-size: 1.5rem;
+
+}
+*/
+
+#downloadButton{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    background-color: #f0f0f0;
+    font-size: 0.80rem;
 }
 
-.aboutLinks button{
+#downloadButton:hover{
+    color: #5ed4f3;
+    background-color: #1e1f21;
+    filter: drop-shadow(-8px 45px 17px #69b7e42c);
+    
+}
+
+.aboutLinks a , button{
     
     border: 4px inset #FFFFFF;
     border-radius: 40px;
@@ -145,7 +165,7 @@
         font-size: 1.2rem;
     }
 
-    .aboutLinks button{
+    .aboutLinks button, #downloadButton{
     
         border: 4px inset #FFFFFF;
         border-radius: 40px;
