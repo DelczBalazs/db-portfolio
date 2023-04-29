@@ -12,7 +12,7 @@ const Projects = () => {
   return (      
     
 
-      <section className="portfolio" id="portfolio">
+      <section className="portfolio" id="projects">
 
         <h2 className="heading">Latest <span><i>Projects</i>:</span> </h2>
 

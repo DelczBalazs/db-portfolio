@@ -7,9 +7,8 @@ const Header = () => {
     <>
       <nav className="container">
         <div className="navButtons socialLinks">
-          <a href="/#">About</a>
-          <a href="/#">Projects</a>
-          <a href="/#">Contact</a>
+          <a href="/#projects">Projects</a>
+          <a href="/#contact">Contact</a>
         </div>
 
         <div className="navLinks">

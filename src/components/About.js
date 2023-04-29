@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaCloudDownloadAlt, FaEnvelopeOpenText} from 'react-icons/fa';
 import Typed from 'typed.js';
+import CV from '../assets/cv.pdf'
 import './About.css';
 
 
@@ -26,7 +27,7 @@ const About = () => {
   return (   
 
     <>
-        <div className="aboutContainer">                 
+        <div className="aboutContainer" id="about">                 
 
             <div className="aboutContent">
 
@@ -40,8 +41,8 @@ const About = () => {
               <br></br>
 
               <div className='aboutLinks'>
-                <a href="../images/DBresume.pdf" download id="downloadButton">Download CV_ <FaCloudDownloadAlt /></a>
-                <button>Contact me_<FaEnvelopeOpenText /></button>
+                <a href={CV} download="DBalazsCV" id="downloadButton">Download CV_ <FaCloudDownloadAlt /></a>
+                <a href="#contact" id="downloadButton">Contact me_<FaEnvelopeOpenText /></a>
               </div>
 
               <section aboutwavesContainer>
