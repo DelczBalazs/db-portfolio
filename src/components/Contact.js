@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import { FaEnvelope } from 'react-icons/fa';
+import { FaEnvelopeOpenText } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {
@@ -42,7 +42,7 @@ const Contact = () => {
           <label>Message:</label>
           <textarea rows="6" placeholder="Message..." name="message" required></textarea>
 
-          <button type="submit" className="btn">Send message_ <FaEnvelope/> </button>
+          <button type="submit" className="btn">Send message &nbsp;<FaEnvelopeOpenText/></button>
           
         </form>
 

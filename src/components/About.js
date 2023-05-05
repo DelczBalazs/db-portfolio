@@ -41,8 +41,8 @@ const About = () => {
               <br></br>
 
               <div className='aboutLinks'>
-                <a href={CV} download="DBalazsCV" id="downloadButton">Download CV_ <FaCloudDownloadAlt /></a>
-                <a href="#contact" id="downloadButton">Contact me_<FaEnvelopeOpenText /></a>
+                <a href={CV} download="DBalazsCV" id="downloadButton">Download CV	&ensp;<FaCloudDownloadAlt /></a>
+                <a href="#contact" id="downloadButton">Contact me &ensp;<FaEnvelopeOpenText /></a>
               </div>
 
               <section aboutwavesContainer>
